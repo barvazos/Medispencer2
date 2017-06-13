@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/linearLayout1">
+    <TextView
+        p1:layout_width="match_parent"
+        p1:layout_height="39.0dp"
+        p1:id="@+id/textView1"
+        p1:text="Welcome to Medispencer!"
+        p1:textSize="@dimen/abc_action_bar_content_inset_material" />
+    <TextView
+        p1:text="Username:"
+        p1:layout_width="match_parent"
+        p1:layout_height="18.5dp"
+        p1:id="@+id/textView2" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/editText1" />
+    <TextView
+        p1:text="Password:"
+        p1:layout_width="match_parent"
+        p1:layout_height="18.5dp"
+        p1:id="@+id/textView2" />
+    <EditText
+        p1:inputType="textPassword"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/editText2" />
+    <Button
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/buttonLogin"
+        p1:text="Login" />
+</LinearLayout>

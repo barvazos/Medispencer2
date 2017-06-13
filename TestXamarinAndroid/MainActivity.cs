@@ -39,23 +39,23 @@ namespace TestXamarinAndroid
 
 			translateButton.Click += (object sender, EventArgs e) =>
 			{
-                //Reminder(DateTime.Now);
+                Reminder(DateTime.Now);
 
-                Notification.Builder builder = new Notification.Builder(this)
-                .SetContentTitle("Sample Notification")
-                .SetContentText("Hello World! This is my first notification!")
-                .SetSmallIcon(Resource.Drawable.abc_btn_check_material);
+    //            Notification.Builder builder = new Notification.Builder(this)
+    //            .SetContentTitle("Sample Notification")
+    //            .SetContentText("Hello World! This is my first notification!")
+    //            .SetSmallIcon(Resource.Drawable.abc_btn_check_material);
 
-				// Build the notification:
-				Notification notification = builder.Build();
+				//// Build the notification:
+				//Notification notification = builder.Build();
 
-				// Get the notification manager:
-				NotificationManager notificationManager =
-					GetSystemService(Context.NotificationService) as NotificationManager;
+				//// Get the notification manager:
+				//NotificationManager notificationManager =
+				//	GetSystemService(Context.NotificationService) as NotificationManager;
 
-				// Publish the notification:
-				const int notificationId = 0;
-				notificationManager.Notify(notificationId, notification);
+				//// Publish the notification:
+				//const int notificationId = 0;
+				//notificationManager.Notify(notificationId, notification);
 			};
 			/*
 			callButton.Click += (object sender, EventArgs e) =>
@@ -80,7 +80,7 @@ namespace TestXamarinAndroid
 
 		public void Reminder(DateTime time, string title = "StamTitle", string message = "StamString")
 		{
-			Intent alarmIntent = new Intent(this, typeof(AlarmReceiver));
+            Intent alarmIntent = new Intent(Android.App.Application.Context, typeof(AlarmReceiver));
 			alarmIntent.PutExtra("message", message);
 			alarmIntent.PutExtra("title", title);
 
@@ -88,7 +88,7 @@ namespace TestXamarinAndroid
 			AlarmManager alarmManager = (AlarmManager)this.GetSystemService(Context.AlarmService);
 
 			//TODO: For demo set after 5 seconds.
-			alarmManager.Set(AlarmType.ElapsedRealtime, SystemClock.ElapsedRealtime() + 5 * 1000, pendingIntent);
+            alarmManager.Set(AlarmType.RtcWakeup, DateTime.Now.Millisecond + 5 * 1000, pendingIntent);
 
 		}
     }

@@ -9,7 +9,7 @@
         p1:layout_height="65.5dp"
         p1:id="@+id/textView1"
         p1:text="Please Fill the Medispenser according to the following:"
-        p1:textSize="@dimen/abc_action_bar_content_inset_material" />
+        p1:textSize="25sp" />
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         p1:orientation="vertical"
         p1:minWidth="25px"
@@ -21,12 +21,14 @@
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell1" />
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell1Desc" />
     </LinearLayout>
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
@@ -40,12 +42,14 @@
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell2" />
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell2Desc" />
     </LinearLayout>
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
@@ -59,12 +63,14 @@
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell3" />
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell3Desc" />
     </LinearLayout>
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
@@ -78,12 +84,14 @@
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell4" />
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell4Desc" />
     </LinearLayout>
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
@@ -97,12 +105,14 @@
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell5" />
         <TextView
             p1:text=""
             p1:layout_width="match_parent"
-            p1:layout_height="18.5dp"
+            p1:layout_height="25dp"
+            p1:textSize="20sp"
             p1:id="@+id/textViewCell5Desc" />
     </LinearLayout>
     <Button

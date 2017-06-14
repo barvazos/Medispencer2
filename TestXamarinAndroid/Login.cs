@@ -13,7 +13,7 @@ using Android.Widget;
 
 namespace TestXamarinAndroid
 {
-    [Activity(Label = "Login", MainLauncher = true)]
+    [Activity(Label = "Medispencer", MainLauncher = true)]
     public class Login : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

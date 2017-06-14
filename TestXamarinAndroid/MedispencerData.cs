@@ -59,7 +59,7 @@ namespace TestXamarinAndroid
 
         public static Cell[] s_cells = new Cell[]{
             new Cell(1, "GreanPill", 12),
-            new Cell(2, "BlaPill", 20),
+            new Cell(2, "Adex", 20),
             new Cell(3, "Akamol", 20)
         };
     }

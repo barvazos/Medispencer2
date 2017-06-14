@@ -24,7 +24,6 @@
 /Users/amitaihandler/Projects/TestXamarinAndroid/TestXamarinAndroid/obj/Debug/res/layout/mainpage.xml
 /Users/amitaihandler/Projects/TestXamarinAndroid/TestXamarinAndroid/obj/Debug/R.cs.flag
 /Users/amitaihandler/Projects/TestXamarinAndroid/TestXamarinAndroid/obj/Debug/uploadflags.txt
-C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\TestXamarinAndroid.csprojResolveAssemblyReference.cache
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\bin\Debug\TestXamarinAndroid.dll
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\bin\Debug\TestXamarinAndroid.pdb
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\bin\Debug\com.companyname.test.apk
@@ -52,3 +51,4 @@ C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\R.c
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\uploadflags.txt
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\bin\Debug\TestXamarinAndroid.dll.mdb
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\android\assets\TestXamarinAndroid.dll.mdb
+C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\TestXamarinAndroid.csprojResolveAssemblyReference.cache

@@ -2,6 +2,7 @@
 using Android.App;
 using Android.Content;
 using Android.Support.V4.App;
+using Android.Media;
 
 namespace TestXamarinAndroid
 {
@@ -22,22 +23,17 @@ namespace TestXamarinAndroid
 
             var style = new NotificationCompat.BigTextStyle();
             style.BigText(message);
-
-            //         // var wearableExtender = new NotificationCompat.WearableExtender();
-            //         //.SetBackground(BitmapFactory.DecodeResource(context.Resources, resourceId));
-
-
-            //         //Generate a notification with just short text and small icon
-                     var builder = new NotificationCompat.Builder(context)
+            var builder = new NotificationCompat.Builder(context)
                                      .SetContentIntent(contentIntent)
-                                     .SetSmallIcon(Resource.Drawable.abc_btn_check_material)
+                                     .SetSmallIcon(Resource.Drawable.briefcase)
                                      .SetContentTitle(title)
                                      .SetContentText(message)
                                      .SetStyle(style)
                                      .SetWhen(Java.Lang.JavaSystem.CurrentTimeMillis())
-                                     .SetAutoCancel(true);
-            				//.Extend(wearableExtender);
-
+                                     .SetAutoCancel(true)
+                                     .SetSound(RingtoneManager.GetDefaultUri(RingtoneType.Notification));
+            //.Extend(wearableExtender);
+            
             var notification = builder.Build();
             manager.Notify(0, notification);
         }

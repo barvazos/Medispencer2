@@ -118,4 +118,10 @@
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/todayActivityTextView" />
 </FrameLayout>

@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>14/06/2017 15:03:05</xs:documentation>
+    <xs:documentation>14/06/2017 20:20:37</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -129,6 +129,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -492,6 +496,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -795,6 +803,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -1618,6 +1630,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -2036,6 +2052,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -2339,6 +2359,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -2750,6 +2774,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -3053,6 +3081,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -3639,6 +3671,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -3942,6 +3978,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -4245,6 +4285,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -4608,6 +4652,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -4911,6 +4959,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -5327,6 +5379,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -5690,6 +5746,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -6154,6 +6214,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -6687,6 +6751,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -7740,6 +7808,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -8204,6 +8276,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
@@ -8507,6 +8583,10 @@
             <xs:enumeration value="@drawable/abc_textfield_search_activated_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
+            <xs:enumeration value="@drawable/barchart" />
+            <xs:enumeration value="@drawable/briefcase" />
+            <xs:enumeration value="@drawable/calendar" />
+            <xs:enumeration value="@drawable/lab" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />

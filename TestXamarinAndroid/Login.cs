@@ -28,7 +28,8 @@ namespace TestXamarinAndroid
 
             loginButton.Click += (object sender, EventArgs e) =>
 			{
-                var intent = new Intent(this, typeof(MainActivity));
+                //var intent = new Intent(this, typeof(MainActivity));
+                var intent = new Intent(this, typeof(FillMedispencer));
                 StartActivity(intent);
 			};
 

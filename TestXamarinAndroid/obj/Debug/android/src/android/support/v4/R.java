@@ -1592,6 +1592,11 @@ containing a value of this type.
     }
     public static final class id {
         public static int CallButton=0x7f0c0058;
+        public static int Cell1Layout=0x7f0c0066;
+        public static int Cell2Layout=0x7f0c0069;
+        public static int Cell3Layout=0x7f0c006c;
+        public static int Cell4Layout=0x7f0c006f;
+        public static int Cell5Layout=0x7f0c0072;
         public static int PhoneNumberText=0x7f0c0056;
         public static int TranslateButton=0x7f0c0057;
         public static int action0=0x7f0c0059;
@@ -1685,6 +1690,16 @@ containing a value of this type.
         public static int textSpacerNoButtons=0x7f0c0034;
         public static int textView1=0x7f0c0051;
         public static int textView2=0x7f0c0052;
+        public static int textViewCell1=0x7f0c0067;
+        public static int textViewCell1Desc=0x7f0c0068;
+        public static int textViewCell2=0x7f0c006a;
+        public static int textViewCell2Desc=0x7f0c006b;
+        public static int textViewCell3=0x7f0c006d;
+        public static int textViewCell3Desc=0x7f0c006e;
+        public static int textViewCell4=0x7f0c0070;
+        public static int textViewCell4Desc=0x7f0c0071;
+        public static int textViewCell5=0x7f0c0073;
+        public static int textViewCell5Desc=0x7f0c0074;
         public static int time=0x7f0c005f;
         public static int title=0x7f0c002a;
         public static int title_template=0x7f0c002f;
@@ -1737,10 +1752,11 @@ containing a value of this type.
         public static int notification_template_media=0x7f040020;
         public static int notification_template_part_chronometer=0x7f040021;
         public static int notification_template_part_time=0x7f040022;
-        public static int select_dialog_item_material=0x7f040023;
-        public static int select_dialog_multichoice_material=0x7f040024;
-        public static int select_dialog_singlechoice_material=0x7f040025;
-        public static int support_simple_spinner_dropdown_item=0x7f040026;
+        public static int perscription=0x7f040023;
+        public static int select_dialog_item_material=0x7f040024;
+        public static int select_dialog_multichoice_material=0x7f040025;
+        public static int select_dialog_singlechoice_material=0x7f040026;
+        public static int support_simple_spinner_dropdown_item=0x7f040027;
     }
     public static final class mipmap {
         public static int icon=0x7f030000;
@@ -1765,8 +1781,7 @@ containing a value of this type.
         public static int abc_shareactionprovider_share_with=0x7f060010;
         public static int abc_shareactionprovider_share_with_application=0x7f060011;
         public static int abc_toolbar_collapse_description=0x7f060012;
-        public static int app_name=0x7f060015;
-        public static int hello=0x7f060014;
+        public static int app_name=0x7f060014;
         public static int status_bar_notification_info_overflow=0x7f060013;
     }
     public static final class style {

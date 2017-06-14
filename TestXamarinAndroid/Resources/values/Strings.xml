@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
 	<string name="app_name">Medispenser</string>
+=======
+	<string name="app_name">Medispencer</string>
+>>>>>>> 32d5de040ca389a44990565913be311d12c61c5f
 </resources>

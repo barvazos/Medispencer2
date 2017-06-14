@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 <resources><string name="app_name">Medispenser</string></resources>
+=======
+<resources><string name="app_name">Medispencer</string></resources>
+>>>>>>> 32d5de040ca389a44990565913be311d12c61c5f

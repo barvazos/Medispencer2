@@ -1,0 +1,17 @@
+
+*.userprefs
+TestXamarinAndroid.userprefs
+TestXamarinAndroid/bin/Debug/com.companyname.test-Signed.apk
+TestXamarinAndroid/bin/Debug/com.companyname.test.apk
+TestXamarinAndroid/bin/Debug/TestXamarinAndroid.dll
+TestXamarinAndroid/bin/Debug/TestXamarinAndroid.pdb
+TestXamarinAndroid/obj/Debug/android/assets/TestXamarinAndroid.dll
+TestXamarinAndroid/obj/Debug/android/assets/TestXamarinAndroid.pdb
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$drawable.class
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$id.class
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$integer.class
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$layout.class
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$mipmap.class
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$string.class
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$style.class
+TestXamarinAndroid/obj/Debug/android/bin/classes/android/support/v4/R$styleable.class

@@ -16,9 +16,19 @@ namespace TestXamarinAndroid
     public class MainActivity : Activity
     {
         public void TodayMeds(){
-            TextView mainPageText = FindViewById<TextView>(Resource.Id.textViewTest);
-            mainPageText.Text = "Sapir is best!!";
-            Console.Write("Today button pressed!!");
+
+        }
+
+        public void InventoryDisplay(){
+            
+        }
+
+        public void StatisticsDisplay(){
+            
+        }
+
+        public void PerscriptionDisplay(){
+            
         }
 	
         protected override void OnCreate(Bundle savedInstanceState)
@@ -28,8 +38,14 @@ namespace TestXamarinAndroid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.MainPage);
 
-            LinearLayout today = FindViewById<LinearLayout>(Resource.Id.TodayButton);
-            today.Click += (object sender, EventArgs e) => { TodayMeds(); };
+            LinearLayout todayButton        = FindViewById<LinearLayout>(Resource.Id.TodayButton);
+            LinearLayout inventoryButton    = FindViewById<LinearLayout>(Resource.Id.InventoryButton);
+            LinearLayout statisticsButton   = FindViewById<LinearLayout>(Resource.Id.StatisticsButton);
+            LinearLayout perscriptionButton = FindViewById<LinearLayout>(Resource.Id.PerscriptionButton);
+            todayButton.Click           += (object sender, EventArgs e) => { TodayMeds(); };
+            inventoryButton.Click       += (object sender, EventArgs e) => { InventoryDisplay(); };
+            statisticsButton.Click      += (object sender, EventArgs e) => { StatisticsDisplay(); };
+            perscriptionButton.Click    += (object sender, EventArgs e) => { PerscriptionDisplay(); };
 
 
             /*

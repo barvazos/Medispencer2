@@ -15,13 +15,24 @@ namespace TestXamarinAndroid
     [Activity(Label = "Phone Word", Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
+        public void TodayMeds(){
+            TextView mainPageText = FindViewById<TextView>(Resource.Id.textViewTest);
+            mainPageText.Text = "Sapir is best!!";
+            Console.Write("Today button pressed!!");
+        }
+	
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
             // Set our view from the "main" layout resource
-            SetContentView(Resource.Layout.Main);
+            SetContentView(Resource.Layout.MainPage);
 
+            LinearLayout today = FindViewById<LinearLayout>(Resource.Id.TodayButton);
+            today.Click += (object sender, EventArgs e) => { TodayMeds(); };
+
+
+            /*
 			// Get our UI controls from the loaded layout:
 			EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
 			Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
@@ -57,6 +68,7 @@ namespace TestXamarinAndroid
 				//const int notificationId = 0;
 				//notificationManager.Notify(notificationId, notification);
 			};
+            */
 			/*
 			callButton.Click += (object sender, EventArgs e) =>
 			{

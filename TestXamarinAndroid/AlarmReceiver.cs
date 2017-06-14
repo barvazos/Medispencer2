@@ -32,7 +32,7 @@ namespace TestXamarinAndroid
                                      .SetContentIntent(contentIntent)
                                      .SetSmallIcon(Resource.Drawable.abc_btn_check_material)
                                      .SetContentTitle(title)
-                                    .SetContentText(message)
+                                     .SetContentText(message)
                                      .SetStyle(style)
                                      .SetWhen(Java.Lang.JavaSystem.CurrentTimeMillis())
                                      .SetAutoCancel(true);

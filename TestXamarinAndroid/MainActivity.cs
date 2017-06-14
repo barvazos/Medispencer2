@@ -36,7 +36,6 @@ namespace TestXamarinAndroid
 			translateButton.Click += (object sender, EventArgs e) =>
 			{
                 Reminder(DateTime.Now);
-
 			};
 			
 		}

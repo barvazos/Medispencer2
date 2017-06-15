@@ -52,3 +52,7 @@ C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\upl
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\bin\Debug\TestXamarinAndroid.dll.mdb
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\android\assets\TestXamarinAndroid.dll.mdb
 C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\TestXamarinAndroid.csprojResolveAssemblyReference.cache
+C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\res\drawable\medispencericon.png
+C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\res\values\colors.xml
+C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\res\drawable\welcome.png
+C:\Users\sapirzan\Documents\GitHub\Medispencer2\TestXamarinAndroid\obj\Debug\res\drawable\statistcspage.png

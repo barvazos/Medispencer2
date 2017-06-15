@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>14/06/2017 20:20:37</xs:documentation>
+    <xs:documentation>15/06/2017 15:33:54</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -1427,7 +1427,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.widget.Space">
     <xs:complexContent mixed="false">
-      <xs:extension base="View" />
+      <xs:extension base="View">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.widget.SlidingPaneLayout" type="android.support.v4.widget.SlidingPaneLayout">
@@ -1437,7 +1440,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.widget.SlidingPaneLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.widget.DrawerLayout" type="android.support.v4.widget.DrawerLayout">
@@ -1449,6 +1455,8 @@
     <xs:complexContent mixed="false">
       <xs:extension base="ViewGroup">
         <xs:attribute ref="tools:openDrawer" />
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
       </xs:extension>
     </xs:complexContent>
   </xs:complexType>
@@ -1459,7 +1467,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.widget.ContentLoadingProgressBar">
     <xs:complexContent mixed="false">
-      <xs:extension base="ProgressBar" />
+      <xs:extension base="ProgressBar">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.widget.SwipeRefreshLayout" type="android.support.v4.widget.SwipeRefreshLayout">
@@ -1469,7 +1480,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.widget.SwipeRefreshLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.widget.NestedScrollView" type="android.support.v4.widget.NestedScrollView">
@@ -1479,7 +1493,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.widget.NestedScrollView">
     <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.view.PagerTitleStrip" type="android.support.v4.view.PagerTitleStrip">
@@ -1489,7 +1506,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.view.PagerTitleStrip">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.view.PagerTabStrip" type="android.support.v4.view.PagerTabStrip">
@@ -1499,7 +1519,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.view.PagerTabStrip">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.view.ViewPager" type="android.support.v4.view.ViewPager">
@@ -1509,7 +1532,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.view.ViewPager">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v4.app.FragmentTabHost" type="android.support.v4.app.FragmentTabHost">
@@ -1519,7 +1545,10 @@
   </xs:element>
   <xs:complexType name="android.support.v4.app.FragmentTabHost">
     <xs:complexContent mixed="false">
-      <xs:extension base="TabHost" />
+      <xs:extension base="TabHost">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ViewStubCompat" type="android.support.v7.widget.ViewStubCompat">
@@ -1529,7 +1558,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ViewStubCompat">
     <xs:complexContent mixed="false">
-      <xs:extension base="View" />
+      <xs:extension base="View">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.SwitchCompat" type="android.support.v7.widget.SwitchCompat">
@@ -1581,7 +1613,13 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.SearchView.SearchAutoComplete">
     <xs:complexContent mixed="false">
-      <xs:extension base="AutoCompleteTextView" />
+      <xs:extension base="AutoCompleteTextView">
+        <xs:attribute ref="p1:popupTheme" />
+        <xs:attribute ref="p1:textEditSuggestionContainerLayout" />
+        <xs:attribute ref="p1:textEditSuggestionHighlightStyle" />
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ScrollingTabContainerView" type="android.support.v7.widget.ScrollingTabContainerView">
@@ -1591,7 +1629,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ScrollingTabContainerView">
     <xs:complexContent mixed="false">
-      <xs:extension base="HorizontalScrollView" />
+      <xs:extension base="HorizontalScrollView">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ScrollingTabContainerView.TabView" type="android.support.v7.widget.ScrollingTabContainerView.TabView">
@@ -1601,7 +1642,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ScrollingTabContainerView.TabView">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ListViewCompat" type="android.support.v7.widget.ListViewCompat">
@@ -1611,7 +1655,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ListViewCompat">
     <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
+      <xs:extension base="ListView">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ListPopupWindow.DropDownListView" type="android.support.v7.widget.ListPopupWindow.DropDownListView">
@@ -1621,7 +1668,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ListPopupWindow.DropDownListView">
     <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
+      <xs:extension base="ListView">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.LinearLayoutCompat" type="android.support.v7.widget.LinearLayoutCompat">
@@ -1646,7 +1696,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.FitWindowsLinearLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="LinearLayout" />
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.FitWindowsFrameLayout" type="android.support.v7.widget.FitWindowsFrameLayout">
@@ -1656,7 +1709,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.FitWindowsFrameLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.DialogTitle" type="android.support.v7.widget.DialogTitle">
@@ -1666,7 +1722,12 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.DialogTitle">
     <xs:complexContent mixed="false">
-      <xs:extension base="TextView" />
+      <xs:extension base="TextView">
+        <xs:attribute ref="p1:textEditSuggestionContainerLayout" />
+        <xs:attribute ref="p1:textEditSuggestionHighlightStyle" />
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ContentFrameLayout" type="android.support.v7.widget.ContentFrameLayout">
@@ -1676,7 +1737,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ContentFrameLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ButtonBarLayout" type="android.support.v7.widget.ButtonBarLayout">
@@ -1711,7 +1775,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ActivityChooserView.InnerLayout">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ActionMenuView" type="android.support.v7.widget.ActionMenuView">
@@ -1721,7 +1788,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ActionMenuView">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.ActionBarContainer" type="android.support.v7.widget.ActionBarContainer">
@@ -1731,7 +1801,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.ActionBarContainer">
     <xs:complexContent mixed="false">
-      <xs:extension base="FrameLayout" />
+      <xs:extension base="FrameLayout">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.AbsActionBarView" type="android.support.v7.widget.AbsActionBarView">
@@ -1741,7 +1814,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.widget.AbsActionBarView">
     <xs:complexContent mixed="false">
-      <xs:extension base="ViewGroup" />
+      <xs:extension base="ViewGroup">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.widget.Toolbar" type="android.support.v7.widget.Toolbar">
@@ -1785,7 +1861,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.view.menu.ExpandedMenuView">
     <xs:complexContent mixed="false">
-      <xs:extension base="ListView" />
+      <xs:extension base="ListView">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="android.support.v7.view.menu.ListMenuItemView" type="android.support.v7.view.menu.ListMenuItemView">
@@ -1795,7 +1874,10 @@
   </xs:element>
   <xs:complexType name="android.support.v7.view.menu.ListMenuItemView">
     <xs:complexContent mixed="false">
-      <xs:extension base="LinearLayout" />
+      <xs:extension base="LinearLayout">
+        <xs:attribute ref="p1:pointerIcon" />
+        <xs:attribute ref="p1:forceHasOverlappingRendering" />
+      </xs:extension>
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="include" type="include">

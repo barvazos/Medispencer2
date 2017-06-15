@@ -20,53 +20,83 @@ namespace TestXamarinAndroid
     public class MainActivity : Activity
     {
 
-        //private static readonly HttpClient client = new HttpClient();
+        private void SetMainPageData(string mainPageString, int chosenLayoutId, bool showImage=false)
+        {
+            // update text
+            TextView todayActivityTextView = FindViewById<TextView>(Resource.Id.mainPageTextView);
+            todayActivityTextView.Text = mainPageString;
+
+            // update buttons
+            LinearLayout todayButton = FindViewById<LinearLayout>(Resource.Id.TodayButton);
+            LinearLayout inventoryButton = FindViewById<LinearLayout>(Resource.Id.InventoryButton);
+            LinearLayout statisticsButton = FindViewById<LinearLayout>(Resource.Id.StatisticsButton);
+            LinearLayout perscriptionButton = FindViewById<LinearLayout>(Resource.Id.PerscriptionButton);
+            todayButton.SetBackgroundColor(Android.Graphics.Color.ParseColor("#5b6e7c"));
+            inventoryButton.SetBackgroundColor(Android.Graphics.Color.ParseColor("#5b6e7c"));
+            statisticsButton.SetBackgroundColor(Android.Graphics.Color.ParseColor("#5b6e7c"));
+            perscriptionButton.SetBackgroundColor(Android.Graphics.Color.ParseColor("#5b6e7c"));
+
+            LinearLayout chosenButton = FindViewById<LinearLayout>(chosenLayoutId);
+            chosenButton.SetBackgroundColor(Android.Graphics.Color.ParseColor("#ec008c"));
+
+            // update image
+            ImageView mainPageImageView = FindViewById<ImageView>(Resource.Id.mainPageImageView);
+            if (showImage)
+            {
+                mainPageImageView.Visibility = ViewStates.Visible;
+            }
+            else
+            {
+                mainPageImageView.Visibility = ViewStates.Gone;
+            }
+            
+        }
 
         public void TodayMeds()
         {
-            TextView todayActivityTextView = FindViewById<TextView>(Resource.Id.todayActivityTextView);
-            todayActivityTextView.Text = GetTodayActivity();
+            string activity = "Today's Activity:\n\n" +
+                               "Morning: \n" +
+                               "08:00:00: 1 Pill Of Adex\n\n" +
+                               "Noon: \n" +
+                               "13:00:00: 1 Pill Of GreanPill\n\n" +
+                               "Afternoon: \n" +
+                               "20:00:00: 1 Pill Of Akamol\n" +
+                               "20:00:00: 1 Pill Of Adex\n\n"
+                               ;
+            SetMainPageData(activity, Resource.Id.TodayButton, false); 
         }
 
         public void InventoryDisplay()
         {
-            
+            string status = "Inventory:\n\n" +
+                            "Adex: 12 pills left\n" +
+                            "GreanPill: 30 pills left\n" +
+                            "Akamol: 20 pills left\n";
+            SetMainPageData(status, Resource.Id.InventoryButton, false);
         }
 
         public void StatisticsDisplay()
         {
-            
+            SetMainPageData("", Resource.Id.StatisticsButton, true);
         }
 
         public void PerscriptionDisplay()
         {
-            
+            string perscription = "Perscriptions:\n\n" +
+                                  "Perscription: \n" +
+                                  "Pill: Adex\n" +
+                                  "Duratiopn: 5 days\n" +
+                                  "When: 08:00:00, 20:00:00\n" +
+                                  "Dr final\n"
+                               ;
+            SetMainPageData(perscription, Resource.Id.PerscriptionButton, false);
+
         }
-	
+
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            // Set our view from the "main" layout resource
-            /*
-            SetContentView(Resource.Layout.Main);
-            
-			// Get our UI controls from the loaded layout:
-			EditText phoneNumberText = FindViewById<EditText>(Resource.Id.PhoneNumberText);
-			Button translateButton = FindViewById<Button>(Resource.Id.TranslateButton);
-			Button callButton = FindViewById<Button>(Resource.Id.CallButton);
-
-			// Disable the "Call" button
-			callButton.Enabled = false;
-
-			// Add code to translate number
-			string translatedNumber = string.Empty;
-            
-			translateButton.Click += (object sender, EventArgs e) =>
-			{
-                Reminder(DateTime.Now);
-			};
-		   */
             SetContentView(Resource.Layout.MainPage);
 
             LinearLayout todayButton        = FindViewById<LinearLayout>(Resource.Id.TodayButton);
@@ -80,8 +110,9 @@ namespace TestXamarinAndroid
 
             TodayMeds();
 
-            if (!m_notificationSent)
+            if (m_startWaitForAlert)
             {
+                m_startWaitForAlert = false;
                 new System.Threading.Thread(new System.Threading.ThreadStart(() =>
                 {
                     WaitForAlertRequests();
@@ -90,25 +121,12 @@ namespace TestXamarinAndroid
 
         }
 
-        private static bool m_notificationSent = false;
+        private static bool m_startWaitForAlert = true;
 
-        public string GetTodayActivity()
-        {
-            string activity = "Today's Activity:\n\n" + 
-                               "Morning: \n" +
-                               "08:00:00: 1 Pill Of Adex\n\n" +
-                               "Noon: \n" +
-                               "13:00:00: 1 Pill Of GreanPill\n\n" +
-                               "Afternoon: \n" +
-                               "20:00:00: 1 Pill Of Akamol\n" +
-                               "20:00:00: 1 Pill Of Adex\n\n"
-                               ;
-            return activity;
-        }
-        
         public void WaitForAlertRequests()
         {
-            while(!m_notificationSent)
+            bool notificationSent = false;
+            while(!notificationSent)
             {
                 var request = HttpWebRequest.Create(string.Format(@"http://192.168.1.6:8080/app"));
                 request.Method = "GET";
@@ -122,7 +140,8 @@ namespace TestXamarinAndroid
                         var content = reader.ReadToEnd();
                         if (content.Equals("True"))
                         {
-                            m_notificationSent = true;
+                            notificationSent = true;
+                            m_startWaitForAlert = true;
                         }
                     }
                 }

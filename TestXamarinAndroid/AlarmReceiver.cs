@@ -25,7 +25,7 @@ namespace TestXamarinAndroid
             style.BigText(message);
             var builder = new NotificationCompat.Builder(context)
                                      .SetContentIntent(contentIntent)
-                                     .SetSmallIcon(Resource.Drawable.briefcase)
+                                     .SetSmallIcon(Resource.Drawable.medispencericon)
                                      .SetContentTitle(title)
                                      .SetContentText(message)
                                      .SetStyle(style)

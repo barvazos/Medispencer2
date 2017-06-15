@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>14/06/2017 20:20:37</xs:documentation>
+    <xs:documentation>15/06/2017 15:33:54</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -133,7 +133,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -500,7 +503,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -807,7 +813,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -1634,7 +1643,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2056,7 +2068,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2363,7 +2378,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -2778,7 +2796,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3085,7 +3106,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3675,7 +3699,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -3982,7 +4009,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4289,7 +4319,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4656,7 +4689,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -4963,7 +4999,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5383,7 +5422,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -5750,7 +5792,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6004,12 +6049,15 @@
             <xs:enumeration value="@color/background_floating_material_light" />
             <xs:enumeration value="@color/background_material_dark" />
             <xs:enumeration value="@color/background_material_light" />
+            <xs:enumeration value="@color/backgroundcolor" />
             <xs:enumeration value="@color/bright_foreground_disabled_material_dark" />
             <xs:enumeration value="@color/bright_foreground_disabled_material_light" />
             <xs:enumeration value="@color/bright_foreground_inverse_material_dark" />
             <xs:enumeration value="@color/bright_foreground_inverse_material_light" />
             <xs:enumeration value="@color/bright_foreground_material_dark" />
             <xs:enumeration value="@color/bright_foreground_material_light" />
+            <xs:enumeration value="@color/button" />
+            <xs:enumeration value="@color/button_chosen" />
             <xs:enumeration value="@color/button_material_dark" />
             <xs:enumeration value="@color/button_material_light" />
             <xs:enumeration value="@color/dim_foreground_disabled_material_dark" />
@@ -6218,7 +6266,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -6755,7 +6806,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -7812,7 +7866,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8066,12 +8123,15 @@
             <xs:enumeration value="@color/background_floating_material_light" />
             <xs:enumeration value="@color/background_material_dark" />
             <xs:enumeration value="@color/background_material_light" />
+            <xs:enumeration value="@color/backgroundcolor" />
             <xs:enumeration value="@color/bright_foreground_disabled_material_dark" />
             <xs:enumeration value="@color/bright_foreground_disabled_material_light" />
             <xs:enumeration value="@color/bright_foreground_inverse_material_dark" />
             <xs:enumeration value="@color/bright_foreground_inverse_material_light" />
             <xs:enumeration value="@color/bright_foreground_material_dark" />
             <xs:enumeration value="@color/bright_foreground_material_light" />
+            <xs:enumeration value="@color/button" />
+            <xs:enumeration value="@color/button_chosen" />
             <xs:enumeration value="@color/button_material_dark" />
             <xs:enumeration value="@color/button_material_light" />
             <xs:enumeration value="@color/dim_foreground_disabled_material_dark" />
@@ -8280,7 +8340,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -8587,7 +8650,10 @@
             <xs:enumeration value="@drawable/briefcase" />
             <xs:enumeration value="@drawable/calendar" />
             <xs:enumeration value="@drawable/lab" />
+            <xs:enumeration value="@drawable/medispencericon" />
             <xs:enumeration value="@drawable/notification_template_icon_bg" />
+            <xs:enumeration value="@drawable/statistcspage" />
+            <xs:enumeration value="@drawable/welcome" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />

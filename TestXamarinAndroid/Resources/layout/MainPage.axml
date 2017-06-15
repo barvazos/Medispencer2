@@ -5,15 +5,15 @@
     android:layout_height="match_parent"
     android:layout_alignParentBottom="true"
     android:layout_gravity="bottom"
-    android:background="@color/material_grey_900"
-    android:elevation="4dp">
+    android:elevation="4dp"
+    android:background="@color/backgroundcolor">
 <!--This linear layout is a wrapper for all the button which are added.-->
 <!--It should be horizontal and change weightsum to the number of buttons you want to add-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:orientation="horizontal"
-        android:background="@color/material_grey_600"
+        android:background="@color/button"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"
         android:weightSum="4">
@@ -25,7 +25,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/material_grey_600"
+            android:background="@color/button"
             android:clickable="true"
             android:gravity="center"
             android:hapticFeedbackEnabled="true"
@@ -52,7 +52,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/material_grey_600"
+            android:background="@color/button"
             android:clickable="true"
             android:gravity="center"
             android:hapticFeedbackEnabled="true"
@@ -75,7 +75,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/material_grey_600"
+            android:background="@color/button"
             android:clickable="true"
             android:gravity="center"
             android:hapticFeedbackEnabled="true"
@@ -98,7 +98,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@color/material_grey_600"
+            android:background="@color/button"
             android:clickable="true"
             android:gravity="center"
             android:hapticFeedbackEnabled="true"
@@ -123,5 +123,10 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/todayActivityTextView" />
+        android:id="@+id/mainPageTextView" />
+    <ImageView
+        android:src="@drawable/statistcspage"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:id="@+id/mainPageImageView" />
 </FrameLayout>

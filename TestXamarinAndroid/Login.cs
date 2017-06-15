@@ -24,15 +24,22 @@ namespace TestXamarinAndroid
 			// Set our view from the "main" layout resource
 			SetContentView(Resource.Layout.Login);
 
-            Button loginButton = FindViewById<Button>(Resource.Id.buttonLogin);
+            //Button loginButton = FindViewById<Button>(Resource.Id.welcomeImage);
+            ImageView loginButton = FindViewById<ImageView>(Resource.Id.welcomeImage);
 
             loginButton.Click += (object sender, EventArgs e) =>
 			{
-                //var intent = new Intent(this, typeof(MainActivity));
-                var intent = new Intent(this, typeof(FillMedispencer));
-                StartActivity(intent);
-			};
+                GoToApp();
+
+            };
 
 		}
+
+        public void GoToApp()
+        {
+            //var intent = new Intent(this, typeof(MainActivity));
+            var intent = new Intent(this, typeof(FillMedispencer));
+            StartActivity(intent);
+        }
     }
 }

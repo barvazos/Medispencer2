@@ -742,32 +742,32 @@ namespace TestXamarinAndroid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b003a
-			public const int abc_background_cache_hint_selector_material_dark = 2131427386;
+			// aapt resource value: 0x7f0b003d
+			public const int abc_background_cache_hint_selector_material_dark = 2131427389;
 			
-			// aapt resource value: 0x7f0b003b
-			public const int abc_background_cache_hint_selector_material_light = 2131427387;
+			// aapt resource value: 0x7f0b003e
+			public const int abc_background_cache_hint_selector_material_light = 2131427390;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int abc_color_highlight_material = 2131427388;
+			// aapt resource value: 0x7f0b003f
+			public const int abc_color_highlight_material = 2131427391;
 			
 			// aapt resource value: 0x7f0b0000
 			public const int abc_input_method_navigation_guard = 2131427328;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int abc_primary_text_disable_only_material_dark = 2131427389;
-			
-			// aapt resource value: 0x7f0b003e
-			public const int abc_primary_text_disable_only_material_light = 2131427390;
-			
-			// aapt resource value: 0x7f0b003f
-			public const int abc_primary_text_material_dark = 2131427391;
-			
 			// aapt resource value: 0x7f0b0040
-			public const int abc_primary_text_material_light = 2131427392;
+			public const int abc_primary_text_disable_only_material_dark = 2131427392;
 			
 			// aapt resource value: 0x7f0b0041
-			public const int abc_search_url_text = 2131427393;
+			public const int abc_primary_text_disable_only_material_light = 2131427393;
+			
+			// aapt resource value: 0x7f0b0042
+			public const int abc_primary_text_material_dark = 2131427394;
+			
+			// aapt resource value: 0x7f0b0043
+			public const int abc_primary_text_material_light = 2131427395;
+			
+			// aapt resource value: 0x7f0b0044
+			public const int abc_search_url_text = 2131427396;
 			
 			// aapt resource value: 0x7f0b0001
 			public const int abc_search_url_text_normal = 2131427329;
@@ -778,11 +778,11 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0b0003
 			public const int abc_search_url_text_selected = 2131427331;
 			
-			// aapt resource value: 0x7f0b0042
-			public const int abc_secondary_text_material_dark = 2131427394;
+			// aapt resource value: 0x7f0b0045
+			public const int abc_secondary_text_material_dark = 2131427397;
 			
-			// aapt resource value: 0x7f0b0043
-			public const int abc_secondary_text_material_light = 2131427395;
+			// aapt resource value: 0x7f0b0046
+			public const int abc_secondary_text_material_light = 2131427398;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int accent_material_dark = 2131427332;
@@ -802,6 +802,9 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0b0009
 			public const int background_material_light = 2131427337;
 			
+			// aapt resource value: 0x7f0b003c
+			public const int backgroundcolor = 2131427388;
+			
 			// aapt resource value: 0x7f0b000a
 			public const int bright_foreground_disabled_material_dark = 2131427338;
 			
@@ -819,6 +822,12 @@ namespace TestXamarinAndroid
 			
 			// aapt resource value: 0x7f0b000f
 			public const int bright_foreground_material_light = 2131427343;
+			
+			// aapt resource value: 0x7f0b003b
+			public const int button = 2131427387;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int button_chosen = 2131427386;
 			
 			// aapt resource value: 0x7f0b0010
 			public const int button_material_dark = 2131427344;
@@ -940,11 +949,11 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0b0037
 			public const int switch_thumb_disabled_material_light = 2131427383;
 			
-			// aapt resource value: 0x7f0b0044
-			public const int switch_thumb_material_dark = 2131427396;
+			// aapt resource value: 0x7f0b0047
+			public const int switch_thumb_material_dark = 2131427399;
 			
-			// aapt resource value: 0x7f0b0045
-			public const int switch_thumb_material_light = 2131427397;
+			// aapt resource value: 0x7f0b0048
+			public const int switch_thumb_material_light = 2131427400;
 			
 			// aapt resource value: 0x7f0b0038
 			public const int switch_thumb_normal_material_dark = 2131427384;
@@ -1423,7 +1432,16 @@ namespace TestXamarinAndroid
 			public const int lab = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int notification_template_icon_bg = 2130837577;
+			public const int medispencericon = 2130837577;
+			
+			// aapt resource value: 0x7f02004c
+			public const int notification_template_icon_bg = 2130837580;
+			
+			// aapt resource value: 0x7f02004a
+			public const int statistcspage = 2130837578;
+			
+			// aapt resource value: 0x7f02004b
+			public const int welcome = 2130837579;
 			
 			static Drawable()
 			{
@@ -1438,8 +1456,8 @@ namespace TestXamarinAndroid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c0068
-			public const int CallButton = 2131492968;
+			// aapt resource value: 0x7f0c0065
+			public const int CallButton = 2131492965;
 			
 			// aapt resource value: 0x7f0c0052
 			public const int Cell1Layout = 2131492946;
@@ -1456,26 +1474,26 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c005e
 			public const int Cell5Layout = 2131492958;
 			
-			// aapt resource value: 0x7f0c006b
-			public const int InventoryButton = 2131492971;
-			
-			// aapt resource value: 0x7f0c006d
-			public const int PerscriptionButton = 2131492973;
-			
-			// aapt resource value: 0x7f0c0066
-			public const int PhoneNumberText = 2131492966;
-			
-			// aapt resource value: 0x7f0c006c
-			public const int StatisticsButton = 2131492972;
+			// aapt resource value: 0x7f0c0068
+			public const int InventoryButton = 2131492968;
 			
 			// aapt resource value: 0x7f0c006a
-			public const int TodayButton = 2131492970;
+			public const int PerscriptionButton = 2131492970;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int PhoneNumberText = 2131492963;
+			
+			// aapt resource value: 0x7f0c0069
+			public const int StatisticsButton = 2131492969;
 			
 			// aapt resource value: 0x7f0c0067
-			public const int TranslateButton = 2131492967;
+			public const int TodayButton = 2131492967;
 			
-			// aapt resource value: 0x7f0c006f
-			public const int action0 = 2131492975;
+			// aapt resource value: 0x7f0c0064
+			public const int TranslateButton = 2131492964;
+			
+			// aapt resource value: 0x7f0c006d
+			public const int action0 = 2131492973;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int action_bar = 2131492929;
@@ -1501,8 +1519,8 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c0042
 			public const int action_context_bar = 2131492930;
 			
-			// aapt resource value: 0x7f0c0073
-			public const int action_divider = 2131492979;
+			// aapt resource value: 0x7f0c0071
+			public const int action_divider = 2131492977;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_menu_divider = 2131492866;
@@ -1531,20 +1549,17 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c0018
 			public const int beginning = 2131492888;
 			
-			// aapt resource value: 0x7f0c0065
-			public const int buttonLogin = 2131492965;
-			
 			// aapt resource value: 0x7f0c002b
 			public const int buttonPanel = 2131492907;
 			
-			// aapt resource value: 0x7f0c0070
-			public const int cancel_action = 2131492976;
+			// aapt resource value: 0x7f0c006e
+			public const int cancel_action = 2131492974;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int checkbox = 2131492921;
 			
-			// aapt resource value: 0x7f0c0076
-			public const int chronometer = 2131492982;
+			// aapt resource value: 0x7f0c0074
+			public const int chronometer = 2131492980;
 			
 			// aapt resource value: 0x7f0c001c
 			public const int collapseActionView = 2131492892;
@@ -1567,20 +1582,14 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c000c
 			public const int disableHome = 2131492876;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int editText1 = 2131492963;
-			
-			// aapt resource value: 0x7f0c0064
-			public const int editText2 = 2131492964;
-			
 			// aapt resource value: 0x7f0c0043
 			public const int edit_query = 2131492931;
 			
 			// aapt resource value: 0x7f0c0019
 			public const int end = 2131492889;
 			
-			// aapt resource value: 0x7f0c007b
-			public const int end_padder = 2131492987;
+			// aapt resource value: 0x7f0c0079
+			public const int end_padder = 2131492985;
 			
 			// aapt resource value: 0x7f0c0025
 			public const int expand_activities_button = 2131492901;
@@ -1606,14 +1615,14 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c0026
 			public const int image = 2131492902;
 			
-			// aapt resource value: 0x7f0c007a
-			public const int info = 2131492986;
-			
-			// aapt resource value: 0x7f0c0074
-			public const int line1 = 2131492980;
-			
 			// aapt resource value: 0x7f0c0078
-			public const int line3 = 2131492984;
+			public const int info = 2131492984;
+			
+			// aapt resource value: 0x7f0c0072
+			public const int line1 = 2131492978;
+			
+			// aapt resource value: 0x7f0c0076
+			public const int line3 = 2131492982;
 			
 			// aapt resource value: 0x7f0c0050
 			public const int linearLayout1 = 2131492944;
@@ -1624,8 +1633,14 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c0028
 			public const int list_item = 2131492904;
 			
-			// aapt resource value: 0x7f0c0072
-			public const int media_actions = 2131492978;
+			// aapt resource value: 0x7f0c006c
+			public const int mainPageImageView = 2131492972;
+			
+			// aapt resource value: 0x7f0c006b
+			public const int mainPageTextView = 2131492971;
+			
+			// aapt resource value: 0x7f0c0070
+			public const int media_actions = 2131492976;
 			
 			// aapt resource value: 0x7f0c001a
 			public const int middle = 2131492890;
@@ -1726,8 +1741,8 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c0017
 			public const int src_over = 2131492887;
 			
-			// aapt resource value: 0x7f0c0071
-			public const int status_bar_latest_event_content = 2131492977;
+			// aapt resource value: 0x7f0c006f
+			public const int status_bar_latest_event_content = 2131492975;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int submit_area = 2131492940;
@@ -1735,20 +1750,17 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c000b
 			public const int tabMode = 2131492875;
 			
-			// aapt resource value: 0x7f0c0079
-			public const int text = 2131492985;
-			
 			// aapt resource value: 0x7f0c0077
-			public const int text2 = 2131492983;
+			public const int text = 2131492983;
+			
+			// aapt resource value: 0x7f0c0075
+			public const int text2 = 2131492981;
 			
 			// aapt resource value: 0x7f0c0034
 			public const int textSpacerNoButtons = 2131492916;
 			
 			// aapt resource value: 0x7f0c0051
 			public const int textView1 = 2131492945;
-			
-			// aapt resource value: 0x7f0c0062
-			public const int textView2 = 2131492962;
 			
 			// aapt resource value: 0x7f0c0053
 			public const int textViewCell1 = 2131492947;
@@ -1780,8 +1792,8 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c0060
 			public const int textViewCell5Desc = 2131492960;
 			
-			// aapt resource value: 0x7f0c0075
-			public const int time = 2131492981;
+			// aapt resource value: 0x7f0c0073
+			public const int time = 2131492979;
 			
 			// aapt resource value: 0x7f0c002a
 			public const int title = 2131492906;
@@ -1789,11 +1801,8 @@ namespace TestXamarinAndroid
 			// aapt resource value: 0x7f0c002f
 			public const int title_template = 2131492911;
 			
-			// aapt resource value: 0x7f0c006e
-			public const int todayActivityTextView = 2131492974;
-			
-			// aapt resource value: 0x7f0c0069
-			public const int toolbar = 2131492969;
+			// aapt resource value: 0x7f0c0066
+			public const int toolbar = 2131492966;
 			
 			// aapt resource value: 0x7f0c002e
 			public const int topPanel = 2131492910;
@@ -1803,6 +1812,9 @@ namespace TestXamarinAndroid
 			
 			// aapt resource value: 0x7f0c0012
 			public const int useLogo = 2131492882;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int welcomeImage = 2131492962;
 			
 			// aapt resource value: 0x7f0c001f
 			public const int withText = 2131492895;

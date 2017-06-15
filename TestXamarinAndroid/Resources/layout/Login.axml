@@ -3,14 +3,16 @@
     p1:orientation="vertical"
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
-    p1:id="@+id/linearLayout1">
-    <TextView
+    p1:id="@+id/linearLayout1"
+    p1:background="@color/backgroundcolor">
+    <ImageView
+        p1:src="@drawable/welcome"
         p1:layout_width="match_parent"
-        p1:layout_height="39.0dp"
-        p1:id="@+id/textView1"
-        p1:text="Welcome to Medispencer!"
-        p1:textSize="@dimen/abc_action_bar_content_inset_material" />
-    <TextView
+        p1:layout_height="wrap_content"
+        p1:id="@+id/welcomeImage"
+        p1:clickable="true"
+        p1:onClick="GoToApp" />
+<!--<TextView
         p1:text="Username:"
         p1:layout_width="match_parent"
         p1:layout_height="18.5dp"
@@ -34,4 +36,5 @@
         p1:layout_height="wrap_content"
         p1:id="@+id/buttonLogin"
         p1:text="Login" />
+        -->
 </LinearLayout>
